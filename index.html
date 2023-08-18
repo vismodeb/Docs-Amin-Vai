@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docs Plant</title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/main.res.css">
+</head>
+<body>
+  <!-- <button type="button" class="dp_btn dp_btn_primary" id="themeToggler">Theme Toggler</button> -->
+
+  <!-- =====================================================================
+                              Header Area Start
+  ====================================================================== -->
+  <header class="header-area">
+    <div class="container">
+      <div class="header-item">
+        <div class="header-logo">
+          <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
+        </div>
+        <div class="header-btn">
+          <div class="desktop-menu">
+            <ul>
+              <li><img src="assets/images/theme.png" alt="img"></li>
+              <li class="select-country">
+                <img src="assets/images/flag.png" alt="flag">
+                <select class="form-select" aria-label="form-select-lg example">
+                  <option selected>ENG</option>
+                  <option value="2">USA</option>
+                  <option value="3">BAN</option>
+                  <option value="4">AUS</option>
+                </select>
+              </li>
+              <li class="menu-btn">
+                <a href="#">
+                  <img src="assets/images/message-text.svg" alt="icon">
+                  <p>Blog</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="mobile-menu">
+            <div id="nav-icon4" class="menu_icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- =====================================================================
+                                Header Area End
+  ====================================================================== -->
+
+  <!-- =====================================================================
+                                Banner Area End
+  ====================================================================== -->
+  
+  <!-- main sections starts -->
+  <main class="main_sections">
+    <!-- features seaction starts -->
+    <section class="features_section section">
+      <div class="container">
+        <div class="row gx-0 gy-5 gy-lg-0 justify-content-between">
+          <div class="col-lg-5">
+            <div class="content">
+              <h3 class="mb-5">We are the experts for Technical Documentation powered by the idea of “Docs as Code”.</h3>
+              <div class="text-center text-lg-start">
+                <img src="./assets/images/dot_map.png" alt="Dot Map" width="400" height="256" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 ">
+            <ul class="features__items reboot-list">
+              <li class="features__item">
+                <h3>Experience</h3>
+                <p>Our team of software engineers and technical writers have experience in every stage of the documentation process.</p>
+              </li>
+              <li class="features__item">
+                <h3>Support</h3>
+                <p>Because we work fully remote, we are able to support you around the world. Since we are located in Switzerland, we can even offer on side support and training to all regions nearby.</p>
+              </li>
+              <li class="features__item">
+                <h3>Open Source</h3>
+                <p>We're passionate about open source. Both when it comes to our company and the tools we use. This means that there are no hidden costs or proprietary solutions that only we can maintain.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- features seaction ends -->
+
+    <!-- faq seaction starts -->
+    <section class="faq_section section pb-0">
+      <div class="container">
+        <div class="section_header text-center">
+          <p class="tag">FAQs</p>
+          <h2 class="title">Frequently asked question</h2>
+          <p class="text">Have a question? We’re here to help.</p>
+        </div>
+        <div class="accordion" id="accordionFaq">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                <div class="h3 mb-0">
+                  Why do you make such a big deal out of documentation?
+                </div>
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionFaq">
+              <div class="accordion-body">
+                <p>
+                  We love documentation and constantly learn more about it. The best thing we can do is to share it with you. So take a look at our blog section and ask us any question you might have. Information should be free for everyone.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                <div class="h3 mb-0">
+                  But I can do that all by myself, right?
+                </div>
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionFaq">
+              <div class="accordion-body">
+                <p>
+                  We love documentation and constantly learn more about it. The best thing we can do is to share it with you. So take a look at our blog section and ask us any question you might have. Information should be free for everyone.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                <div class="h3 mb-0">
+                  Who much does it cost?
+                </div>
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionFaq">
+              <div class="accordion-body">
+                <p>
+                  We love documentation and constantly learn more about it. The best thing we can do is to share it with you. So take a look at our blog section and ask us any question you might have. Information should be free for everyone.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                <div class="h3 mb-0">
+                  What kind of trainings do you offer?
+                </div>
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionFaq">
+              <div class="accordion-body">
+                <p>
+                  We love documentation and constantly learn more about it. The best thing we can do is to share it with you. So take a look at our blog section and ask us any question you might have. Information should be free for everyone.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                <div class="h3 mb-0">
+                  Do you only support Swiss-based clients?
+                </div>
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionFaq">
+              <div class="accordion-body">
+                <p>
+                  We love documentation and constantly learn more about it. The best thing we can do is to share it with you. So take a look at our blog section and ask us any question you might have. Information should be free for everyone.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading6">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                <div class="h3 mb-0">
+                  What will be the first steps when you decide to work with us?
+                </div>
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionFaq">
+              <div class="accordion-body">
+                <p>
+                  We love documentation and constantly learn more about it. The best thing we can do is to share it with you. So take a look at our blog section and ask us any question you might have. Information should be free for everyone.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/images/flower_small_banner.png" alt="Flower" width="1440" height="316" class="img-fluid banner-img">
+    </section>
+    <!-- faq seaction ends -->
+
+    <!-- get started starts -->
+    <section class="get_started_section section">
+      <div class="container">
+        <h2 class="text-sm-center">
+          Read to get started?
+          <span class="d-block fw-normal mt-2">
+            We can't wait to see how we can help you getting the most out of your documentation.
+          </span>
+        </h2>
+        <div class="text-sm-center">
+          <a href="#" class="dp_btn dp_btn_primary text-capitalize">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <!-- get started ends -->
+  </main>
+  <!-- main sections ends -->
+  
+    <!-- footer main starts -->
+    <footer class="footer_main"></footer>
+    <!-- footer main ends -->
+
+    <!-- bootstrap js -->
+    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- custom js -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
